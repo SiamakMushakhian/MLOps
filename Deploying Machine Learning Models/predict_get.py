@@ -6,7 +6,7 @@ from flask import Flask
 app = Flask('ping-pong')
 
 # decorator is a way to add some extra functionality to our function and
-# it allow us to make it a web service.
+# it allows us to make it a web service.
 # define the address and method
 @app.route('/ping', methods=['GET'])
 def pong():
